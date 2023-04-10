@@ -13,7 +13,6 @@ Authors: *Jhury Kevin Lastre  |  Paul John Toral  |  Danica Marie Dumalagan*
 
 This document outlines the design of the TRACS Assembler software. The assembler is responsible for translating assembly language into machine code, allowing for the execution of programs on the TRACS architecture. This document will detail the various components of the assembler and their interactions, as well as provide an overview of the design decisions made during its development.
 
-![Untitled](Assemblee%20TRACS%20Assembler%20Software%20Design%20Document%20e539d7c695fb42b6a631c120ea31fe6d/Untitled.png)
 
 ## Design Goals and Objectives
 
@@ -42,7 +41,6 @@ graph LR
 
 ```
 
-![Untitled](Assemblee%20TRACS%20Assembler%20Software%20Design%20Document%20e539d7c695fb42b6a631c120ea31fe6d/Untitled%201.png)
 
 ### Tools Used
 
@@ -112,7 +110,6 @@ flowchart LR
   rp --> tr(Trim line)
 ```
 
-![Untitled](Assemblee%20TRACS%20Assembler%20Software%20Design%20Document%20e539d7c695fb42b6a631c120ea31fe6d/Untitled%202.png)
 
 ## Interface Design
 
@@ -149,7 +146,6 @@ classDiagram
 		}
 ```
 
-![Untitled](Assemblee%20TRACS%20Assembler%20Software%20Design%20Document%20e539d7c695fb42b6a631c120ea31fe6d/Untitled%203.png)
 
 - Main Component - This component handles the scaffolding of the entire application from displaying it on the screen to closing it. Business logic is contained within the main component.
 - Renderer - The renderer is responsible for listening to button click events. Depending on which button is clicked, it communicates with the Main component to execute the specific function for a certain button.
